@@ -1,5 +1,9 @@
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nick's Homepage</title>
     <style id="__web-inspector-hide-shortcut-style__">
       .__web-inspector-hide-shortcut__,
       .__web-inspector-hide-shortcut__ *,
@@ -24,30 +28,30 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-  </head>
-  <body onload="startTime()">
-    <header>
-      <title>Nick's Homepage</title>
-    </header>
-
     <style>
       body {
-        background-image: url("https://www.nicklyss.com/wp-content/uploads/2020/01/rock-mountain-cliff-black-and-white-wallpaper-for-3840x2160-4k-136-1177-scaled.jpg");
-        background-color: #cccccc;
-        width: auto;
-        height: auto;
+        background-image: url("https://www.nicklyss.com/wp-content/uploads/2019/12/snow-mountains-stones-4k-s3-2880x1800-1-scaled.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
       }
 
-      h1 {
-        color: red;
+      #box {
+        background-color: rgba(255, 255, 255, 0.6);
+        width: 80%;
+        height: 75%;
+        border-radius: 15px;
+        box-shadow: 3px 3px 3px 3px rgb(39, 38, 38);
+        margin-top: 1.5%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #title {
         text-align: center;
-        font-size: small;
-      }
-
-      footer {
-        position: fixed;
-        bottom: 15;
-        left: 15;
+        font-size: large;
+        font-weight: bold;
       }
 
       .clockdate-wrapper {
@@ -58,9 +62,9 @@
         text-align: center;
         border-radius: 5px;
         margin: 0 auto;
-        opacity: 0.7;
-        margin-top: 15%;
+        opacity: 0.85;
       }
+
       #clock {
         background-color: #333;
         font-family: sans-serif;
@@ -83,180 +87,202 @@
         color: #fff;
       }
 
-      .topPage {
-        text-align: center;
-      }
-
-      .column {
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        font-weight: bold;
-        font-size: large;
-      }
-
-      /* Clear floats after the columns */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-
       #column1 {
         border-style: solid;
+        width: 95%;
         border-width: 2px;
         background-color: rgb(211, 211, 211);
         opacity: 0.9;
         padding: 10px;
         box-shadow: 10px 10px 8px #888888;
+        opacity: 0.85;
+        border-radius: 15px;
       }
 
       #column2 {
         border-style: solid;
+        width: 95%;
         border-width: 2px;
         background-color: rgb(211, 211, 211);
         padding: 10px;
         box-shadow: 10px 10px 8px #888888;
+        opacity: 0.85;
+        border-radius: 15px;
       }
 
       #column3 {
         border-style: solid;
+        width: 95%;
         border-width: 2px;
         background-color: rgb(211, 211, 211);
         padding: 10px;
         box-shadow: 10px 10px 8px #888888;
+        opacity: 0.85;
+        border-radius: 15px;
+      }
+
+      .fotmob {
+        border-radius: 15px;
+      }
+
+      .rssdog {
+        border-radius: 15px;
+        border-style: solid;
+        border-width: 2px;
+      }
+
+      .row {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+      }
+
+      #logo {
+        border-radius: 15px;
       }
     </style>
-    <br />
-    <p div="" class="topPage">
-      Nick's Homepage!
-    </p>
+  </head>
 
-    <br />
-    <div class="container-fluid">
-      <div class="row">
-        <div id="column1" class="col-sm-4 column">Soccer Scores</div>
-        <div id="column2" class="col-sm-4 column">Most Visited</div>
-        <div id="column3" class="col-sm-4 column">News</div>
-      </div>
-    </div>
-    <br />
-    <div class="container-fluid">
-      <div class="row">
-        <div id="column1row2" class="col-sm-4 column">
-          <iframe
-            height="550"
-            width="500"
-            src="https://www.fotmob.com"
-          ></iframe>
+  <body onload="startTime()">
+    <div id="box">
+      <br />
+      <div id="title">Nick's Homepage</div>
+
+      <br />
+
+      <div class="container-fluid">
+        <div class="row">
+          <div id="column1" class="col-sm-4 column">Soccer Scores</div>
+          <div id="column2" class="col-sm-4 column">Most Visited</div>
+          <div id="column3" class="col-sm-4 column">News</div>
         </div>
+      </div>
+      <br />
+      <div class="container-fluid">
+        <div class="row">
+          <div id="column1row2" class="col-sm-4 column">
+            <iframe
+              class="fotmob"
+              height="200%"
+              width="90%"
+              src="https://www.fotmob.com"
+              style="
+  width: 100%;
+"
+            ></iframe>
+          </div>
 
-        <div id="column2row2" class="col-sm-4 column">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <a href="https://www.youtube.com">
-                  <img
-                    border="0"
-                    alt="Youtube"
-                    src="https://www.nicklyss.com/wp-				content/uploads/2020/03/youtube_logo.png"
-                    width="75"
-                    height="75"
-                  />
-                  Youtube
-                </a>
+          <div id="column2row2" class="col-sm-4 column">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6">
+                  <a href="https://www.youtube.com">
+                    <img
+                      id="logo"
+                      border="0"
+                      alt="Youtube"
+                      src="https://www.nicklyss.com/wp-content/uploads/2020/03/youtube_logo.png"
+                      width="75"
+                      height="75"
+                    />
+                    Youtube
+                  </a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="https://www.reddit.com/r/soccer">
+                    <img
+                      id="logo"
+                      border="0"
+                      alt="/r/soccer"
+                      src="https://www.nicklyss.com/wp-content/uploads/2020/03/Reddit-Logo.png"
+                      width="70"
+                      height="70"
+                    />
+                    /r/soccer
+                  </a>
+                </div>
               </div>
-              <div class="col-sm-6">
-                <a href="https://www.reddit.com/r/soccer">
-                  <img
-                    border="0"
-                    alt="/r/soccer"
-                    src="https://www.nicklyss.com/wp-content/uploads/2020/03/Reddit-Logo.png"
-                    width="70"
-                    height="70"
-                  />
-                  /r/soccer
-                </a>
+              <br />
+              <div class="row">
+                <div class="col-sm-6">
+                  <a href="https://www.reddit.com/r/politics">
+                    <img
+                      id="logo"
+                      border="0"
+                      alt="/r/politics"
+                      src="https://www.nicklyss.com/wp-content/uploads/2020/03/Reddit-Logo.png"
+                      width="70"
+                      height="70"
+                    />
+                    /r/politics
+                  </a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="https://www.amazon.com/">
+                    <img
+                      id="logo"
+                      border="0"
+                      alt="Amazon"
+                      src="https://www.nicklyss.com/wp-content/uploads/2020/03/Amazon-logo.png"
+                      width="70"
+                      height="70"
+                    />
+                    Amazon
+                  </a>
+                </div>
               </div>
-            </div>
-            <br />
-            <div class="row">
-              <div class="col-sm-6">
-                <a href="https://www.reddit.com/r/politics">
-                  <img
-                    border="0"
-                    alt="/r/politics"
-                    src="https://www.nicklyss.com/wp-content/uploads/2020/03/Reddit-Logo.png"
-                    width="70"
-                    height="70"
-                  />
-                  /r/politics
-                </a>
-              </div>
-              <div class="col-sm-6">
-                <a href="https://www.amazon.com/">
-                  <img
-                    border="0"
-                    alt="Amazon"
-                    src="https://www.nicklyss.com/wp-content/uploads/2020/03/Amazon-logo.png"
-                    width="70"
-                    height="70"
-                  />
-                  Amazon
-                </a>
-              </div>
-            </div>
-            <br />
-            <div class="row">
-              <div class="col-sm-6">
-                <a href="https://app.plex.tv/desktop">
-                  <img
-                    border="0"
-                    alt="Plex"
-                    src="https://www.nicklyss.com/wp-content/uploads/2020/03/plex-logo.png"
-                    width="80"
-                    height="80"
-                  />
-                  Plex
-                </a>
-              </div>
-              <div class="col-sm-6">
-                <a href="https://learn.umuc.edu/d2l/home">
-                  <img
-                    border="0"
-                    alt="UMGC"
-                    src="https://www.nicklyss.com/wp-content/uploads/2020/03/umgc-logo.png"
-                    width="75"
-                    height="75"
-                  />
-                  UMGC
-                </a>
+              <br />
+              <div class="row">
+                <div class="col-sm-6">
+                  <a href="https://app.plex.tv/desktop">
+                    <img
+                      id="logo"
+                      border="0"
+                      alt="Plex"
+                      src="https://www.nicklyss.com/wp-content/uploads/2020/03/plex-logo.png"
+                      width="75"
+                      height="75"
+                    />
+                    Plex
+                  </a>
+                </div>
+                <div class="col-sm-6">
+                  <a href="https://learn.umuc.edu/d2l/home">
+                    <img
+                      id="logo"
+                      border="0"
+                      alt="UMGC"
+                      src="https://www.nicklyss.com/wp-content/uploads/2020/03/umgc-logo.png"
+                      width="75"
+                      height="75"
+                    />
+                    UMGC
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div id="column3row2" class="col-sm-4 column">
-          <iframe
-            width="100%"
-            height="750"
-            frameborder="0"
-            class="rssdog"
-            src="https://www.rssdog.com/index.php?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fworldnews.rss&amp;mode=html&amp;showonly=&amp;maxitems=10&amp;showdescs=1&amp;desctrim=0&amp;descmax=0&amp;tabwidth=100%25&amp;linktarget=_blank&amp;textsize=inherit&amp;fullhtml=1&amp;bordercol=%23d4d0c8&amp;headbgcol=%23999999&amp;headtxtcol=%23ffffff&amp;titlebgcol=%23f1eded&amp;titletxtcol=%23000000&amp;itembgcol=%23ffffff&amp;itemtxtcol=%23000000&amp;ctl=0"
-          ></iframe>
+          <div id="column3row2" class="col-sm-4 column">
+            <iframe
+              width="100%"
+              height="200%"
+              frameborder="0"
+              class="rssdog"
+              src="https://www.rssdog.com/index.php?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fworldnews.rss&amp;mode=html&amp;showonly=&amp;maxitems=10&amp;showdescs=1&amp;desctrim=0&amp;descmax=0&amp;tabwidth=100%25&amp;linktarget=_blank&amp;textsize=inherit&amp;fullhtml=1&amp;bordercol=%23d4d0c8&amp;headbgcol=%23999999&amp;headtxtcol=%23ffffff&amp;titlebgcol=%23f1eded&amp;titletxtcol=%23000000&amp;itembgcol=%23ffffff&amp;itemtxtcol=%23000000&amp;ctl=0"
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
-    <br />
 
-    <footer>
-      <div id="clockdate">
-        <div class="clockdate-wrapper">
-          <div id="clock">01:09:24 <span>PM</span></div>
-          <div id="date">Wed, March 4 2020</div>
-        </div>
+    <br />
+    <div id="clockdate">
+      <div class="clockdate-wrapper">
+        <div id="clock">03:46:05 <span>PM</span></div>
+        <div id="date">Fri, March 6 2020</div>
       </div>
-    </footer>
+    </div>
 
     <script>
       function startTime() {
@@ -307,11 +333,5 @@
         return i;
       }
     </script>
-
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
